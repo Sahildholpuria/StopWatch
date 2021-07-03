@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
+
 
     <TextView
         android:id="@+id/time_view"
@@ -15,6 +17,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="92sp"
         />
+
     <Button
         android:id="@+id/start_btn"
         android:layout_width="wrap_content"
@@ -25,6 +28,7 @@
         android:onClick="startBtn"
         android:text="@string/start"
         />
+
     <Button
         android:id="@+id/stop_btn"
         android:layout_width="wrap_content"
@@ -34,6 +38,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/stop"
         android:onClick="stopBtn"/>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -43,6 +48,8 @@
         android:text="@string/reset"
         android:onClick="resetBtn"
         />
+
+
 
 
 </RelativeLayout>
